@@ -1,9 +1,7 @@
 {
-  "name": "webpack",
-  "version": "1.12.9",
-  "author": {
-    "name": "Tobias Koppers @sokra"
-  },
+  "name": "my-webpack",
+  "version": "0.0.1",
+  "author": "Tobias Koppers @sokra",
   "description": "Packs CommonJs/AMD modules for the browser. Allows to split your codebase into multiple bundles, which can be loaded on demand. Support loaders to preprocess files, i.e. json, jade, coffee, css, less, ... and your custom stuff.",
   "dependencies": {
     "async": "^1.3.0",
@@ -90,11 +88,9 @@
     "cover": "istanbul cover -x *.runtime.js node_modules/mocha/bin/_mocha",
     "publish-patch": "npm run lint && npm run beautify-lint && mocha && npm version patch && git push && git push --tags && npm publish"
   },
-  "gitHead": "9766f2bde3c3f3e7b3b0e914c9cb81ea3a12e823",
   "bugs": {
     "url": "https://github.com/webpack/webpack/issues"
   },
-  "_id": "webpack@1.12.9",
   "_shasum": "2a031d66189839cc5cbf2c68f80566da2e14ff4e",
   "_from": "webpack@>=1.12.9 <2.0.0",
   "_npmVersion": "2.10.1",
@@ -104,10 +100,7 @@
     "email": "tobias.koppers@googlemail.com"
   },
   "maintainers": [
-    {
-      "name": "sokra",
-      "email": "tobias.koppers@googlemail.com"
-    }
+    "sokra <tobias.koppers@googlemail.com>"
   ],
   "dist": {
     "shasum": "2a031d66189839cc5cbf2c68f80566da2e14ff4e",
@@ -119,5 +112,8 @@
   "publish_time": 1448349018190,
   "_cnpm_publish_time": 1448349018190,
   "_resolved": "https://registry.npm.taobao.org/webpack/download/webpack-1.12.9.tgz",
-  "readme": "ERROR: No README data found!"
+  "keywords": [
+    "my-webpack",
+    "webpack"
+  ]
 }
